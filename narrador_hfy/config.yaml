@@ -1,0 +1,48 @@
+# Ruta al directorio de datos. Se recomienda usar rutas relativas.
+paths:
+  projects: "data/projects/"
+  output_videos: "data/output/"
+  voice_bank: "data/voice_bank/"
+
+# Configuración del motor de Síntesis de Voz (TTS)
+tts:
+  # Modelo de Coqui TTS a utilizar. XTTSv2 es excelente para clonación de voz.
+  model: "tts_models/multilingual/multi-dataset/xtts_v2"
+  # Dispositivo para la inferencia. 'cuda' para GPU (recomendado), 'cpu' para CPU.
+  device: "cuda"
+  # Idioma para la síntesis de voz.
+  language: "es"
+  # Arquetipo de voz por defecto para el narrador. Debe corresponder a un archivo
+  # en la carpeta voice_bank (ej. narrador.wav).
+  narrator_voice: "narrador"
+
+# Configuración para la creación de video
+video:
+  resolution: [1920, 1080]
+  fps: 24
+  # Fuente a utilizar para los subtítulos. Asegúrate de que esté instalada en tu sistema.
+  # Ejemplos: "Arial", "Verdana", "Roboto-Bold"
+  font: "Arial"
+  fontsize: 60
+  font_color: "white"
+  # Duración en segundos para el clip de título al inicio del video.
+  title_duration_s: 5
+  # Imagen de fondo por defecto. Si no existe, se creará una negra.
+  default_background: "data/default_bg.png"
+
+# Configuración para el módulo de traducción
+translation:
+  # Modelo de Hugging Face para la traducción de Inglés a Español.
+  model: 'Helsinki-NLP/opus-mt-en-es'
+  # Lista de términos a proteger durante la traducción para que no se alteren.
+  protected_terms:
+    - "K'vark"
+    - "Terran"
+    - "FTL"
+    - "HFY"
+    - "Reddit"
+
+# Configuración para el análisis de diálogos
+dialogue_analysis:
+  # Modelo de spaCy para el procesamiento de lenguaje natural en español.
+  spacy_model: 'es_core_news_md'

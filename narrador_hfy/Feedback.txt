@@ -1,0 +1,71 @@
+C:\Users\Pc>cd C:\Users\Pc\Desktop\narador\narrador_hfy
+
+C:\Users\Pc\Desktop\narador\narrador_hfy>.\.venv\Scripts\activate
+
+(.venv) C:\Users\Pc\Desktop\narador\narrador_hfy>pip uninstall moviepy
+Found existing installation: moviepy 2.2.1
+Uninstalling moviepy-2.2.1:
+  Would remove:
+    c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages\moviepy-2.2.1.dist-info\*
+    c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages\moviepy\*
+Proceed (Y/n)? y
+  Successfully uninstalled moviepy-2.2.1
+
+(.venv) C:\Users\Pc\Desktop\narador\narrador_hfy> pip install moviepy==1.0.3
+Collecting moviepy==1.0.3
+  Downloading moviepy-1.0.3.tar.gz (388 kB)
+     ---------------------------------------- 388.3/388.3 kB 3.0 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting decorator<5.0,>=4.0.2 (from moviepy==1.0.3)
+  Obtaining dependency information for decorator<5.0,>=4.0.2 from https://files.pythonhosted.org/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl.metadata
+  Downloading decorator-4.4.2-py2.py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: imageio<3.0,>=2.5 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from moviepy==1.0.3) (2.37.0)
+Requirement already satisfied: imageio_ffmpeg>=0.2.0 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from moviepy==1.0.3) (0.6.0)
+Requirement already satisfied: tqdm<5.0,>=4.11.2 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from moviepy==1.0.3) (4.67.1)
+Requirement already satisfied: numpy>=1.17.3 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from moviepy==1.0.3) (1.26.4)
+Requirement already satisfied: requests<3.0,>=2.8.1 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from moviepy==1.0.3) (2.32.4)
+Requirement already satisfied: proglog<=1.0.0 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from moviepy==1.0.3) (0.1.12)
+Requirement already satisfied: pillow>=8.3.2 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from imageio<3.0,>=2.5->moviepy==1.0.3) (11.3.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from requests<3.0,>=2.8.1->moviepy==1.0.3) (2025.8.3)
+Requirement already satisfied: colorama in c:\users\pc\desktop\narador\narrador_hfy\.venv\lib\site-packages (from tqdm<5.0,>=4.11.2->moviepy==1.0.3) (0.4.6)
+Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Building wheels for collected packages: moviepy
+  Building wheel for moviepy (pyproject.toml) ... done
+  Created wheel for moviepy: filename=moviepy-1.0.3-py3-none-any.whl size=110839 sha256=62143609ec2ef92fcba590d2d11a5a683bf755fe34965b8b7fa04b8604152afc
+  Stored in directory: c:\users\pc\appdata\local\pip\cache\wheels\83\b1\d9\119ef7c144b44d591ec0a9a140465133c23ea95d2a161184ba
+Successfully built moviepy
+Installing collected packages: decorator, moviepy
+  Attempting uninstall: decorator
+    Found existing installation: decorator 5.2.1
+    Uninstalling decorator-5.2.1:
+      Successfully uninstalled decorator-5.2.1
+Successfully installed decorator-4.4.2 moviepy-1.0.3
+
+[notice] A new release of pip is available: 23.2.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(.venv) C:\Users\Pc\Desktop\narador\narrador_hfy>streamlit run main.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.10:8501
+
+2025-08-12 20:37:20,473 [WARNING] py.warnings: C:\Users\Pc\Desktop\narador\narrador_hfy\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py:255: UserWarning: Torchaudio's I/O functions now support par-call bakcend dispatch. Importing backend implementation directly is no longer guaranteed to work. Please use `backend` keyword with load/save/info function, instead of calling the udnerlying implementation directly.
+  if hasattr(m, "__path__")
+
+2025-08-12 20:37:59,874 [INFO] narrator_app.modules.story_processor: StoryProcessor inicializado.
+2025-08-12 20:37:59,877 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/3h9bz3/oc_the_last_angel/
+2025-08-12 20:38:00,598 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:38:00,617 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:38:00,617 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+2025-08-12 20:39:14,306 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/17qyg9g/nature_of_predators_a_different_approach_1/?tl=es-es
+2025-08-12 20:39:14,791 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:39:14,822 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:39:14,822 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+

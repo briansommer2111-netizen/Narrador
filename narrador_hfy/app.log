@@ -1,0 +1,32 @@
+2025-08-12 20:37:20,473 [WARNING] py.warnings: C:\Users\Pc\Desktop\narador\narrador_hfy\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py:255: UserWarning: Torchaudio's I/O functions now support par-call bakcend dispatch. Importing backend implementation directly is no longer guaranteed to work. Please use `backend` keyword with load/save/info function, instead of calling the udnerlying implementation directly.
+  if hasattr(m, "__path__")
+
+2025-08-12 20:37:59,874 [INFO] narrator_app.modules.story_processor: StoryProcessor inicializado.
+2025-08-12 20:37:59,877 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/3h9bz3/oc_the_last_angel/
+2025-08-12 20:38:00,598 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:38:00,617 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:38:00,617 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+2025-08-12 20:39:14,306 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/17qyg9g/nature_of_predators_a_different_approach_1/?tl=es-es
+2025-08-12 20:39:14,791 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:39:14,822 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:39:14,822 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+2025-08-12 20:41:21,013 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/17qyg9g/nature_of_predators_a_different_approach_1/?tl=es-es
+2025-08-12 20:41:21,347 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:41:21,379 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:41:21,379 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+2025-08-12 20:41:23,306 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/17qyg9g/nature_of_predators_a_different_approach_1/?tl=es-es
+2025-08-12 20:41:23,658 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:41:23,689 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:41:23,689 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+2025-08-12 20:42:38,291 [WARNING] py.warnings: C:\Users\Pc\Desktop\narador\narrador_hfy\.venv\Lib\site-packages\streamlit\watcher\local_sources_watcher.py:255: UserWarning: Torchaudio's I/O functions now support par-call bakcend dispatch. Importing backend implementation directly is no longer guaranteed to work. Please use `backend` keyword with load/save/info function, instead of calling the udnerlying implementation directly.
+  if hasattr(m, "__path__")
+
+2025-08-12 20:42:49,662 [INFO] narrator_app.modules.story_processor: StoryProcessor inicializado.
+2025-08-12 20:42:49,664 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/17qyg9g/nature_of_predators_a_different_approach_1/?show=original
+2025-08-12 20:42:50,038 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:42:50,069 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:42:50,069 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
+2025-08-12 20:43:14,611 [INFO] narrator_app.modules.story_processor: Obteniendo historia desde: https://www.reddit.com/r/HFY/comments/17qyg9g/nature_of_predators_a_different_approach_1/?show=original
+2025-08-12 20:43:14,957 [INFO] narrator_app.modules.story_processor: Parseando el contenido HTML de la historia.
+2025-08-12 20:43:15,004 [ERROR] narrator_app.modules.story_processor: No se encontró el div principal del contenido. La estructura de Reddit puede haber cambiado.
+2025-08-12 20:43:15,004 [ERROR] narrator_app.modules.story_processor: Error al parsear el HTML: No se pudo encontrar el contenedor principal del post.
