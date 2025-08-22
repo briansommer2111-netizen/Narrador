@@ -1,0 +1,10 @@
+[
+    {
+        "scene_id": "chapter_01_s001",
+        "speaker": "narrador",
+        "text": "Érase una vez en un reino muy lejano, una princesa que vivía en un gran castillo. El castillo estaba rodeado por un bosque oscuro y profundo.",
+        "image_path": "/app/project_root/assets/images/placeholder.png",
+        "audio_path": "/app/project_root/output/chapter_01/audio/chapter_01_s001.wav",
+        "duration": 10.72
+    }
+]

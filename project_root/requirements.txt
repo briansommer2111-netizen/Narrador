@@ -1,0 +1,21 @@
+# Core Libraries
+transformers
+torch
+coqui-tts
+moviepy
+ffmpeg-python
+streamlit
+pydub
+faiss-cpu
+# For llama.cpp python bindings, installation is usually more complex.
+# Add the specific wheel or instructions later. For now, this is a placeholder.
+# llama-cpp-python
+
+# Database & Config
+peewee # A simple ORM for SQLite
+PyYAML
+
+# Utility
+numpy
+pandas
+tqdm

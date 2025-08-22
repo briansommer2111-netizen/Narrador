@@ -1,0 +1,36 @@
+# Configuration for the Novel-to-Radioplay AI Pipeline
+
+# --- Project Paths ---
+paths:
+  root: .
+  data: data/
+  input: data/input/
+  output: output/
+  final_output: output/final/
+  assets: assets/
+  db: memory_db/database.db
+
+# --- Models & Engines ---
+models:
+  translation: "Helsinki-NLP/opus-mt-en-es"
+  script_llm: "local_model/gguf-7b-q4.bin" # Placeholder for a local GGUF model
+  tts: "tts_models/es/css10/vits"
+  image: "stabilityai/stable-diffusion-xl-base-1.0"
+
+# --- Pipeline Settings ---
+pipeline:
+  language: "es" # Target language: "es" or "en"
+  translate: false # Whether to translate the input text
+  narrator_voice: "default_narrator"
+
+# --- Media Assembly ---
+assembly:
+  image_size: [1024, 1024]
+  video_format: "mp4"
+  audio_format: "wav"
+  ken_burns_effect: true
+
+# --- Web UI ---
+web_ui:
+  host: "127.0.0.1"
+  port: 8501
