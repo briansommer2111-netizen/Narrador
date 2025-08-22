@@ -1,0 +1,3 @@
+El proyecto había comenzado. El objetivo de Isaac era ambicioso: transformar palabras escritas en un radioteatro inmersivo.
+
+Cada módulo fue diseñado con cuidado. El sistema tomaría un capítulo, lo analizaría y generaría voces y sonidos. La primera prueba sería un éxito. O eso esperaba Jules.

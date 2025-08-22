@@ -1,0 +1,19 @@
+{
+  "isaac": {
+    "id": "isaac",
+    "name": "Isaac Volkov Dmitri",
+    "description": "Hombre joven, cabello negro, con una distintiva cicatriz en la ceja. Suele vestir con ropas oscuras y funcionales. De mirada intensa y gesto serio.",
+    "images": [
+      "assets/images/isaac_base.png"
+    ],
+    "voice_profile": {
+      "model": "coqui-v2",
+      "preset": "es_MX/male_voice_1"
+    },
+    "image_embedding": [
+      0.123, -0.456, 0.789, -0.234, 0.567, 0.890, -0.111, 0.222, -0.333, 0.444
+    ],
+    "permanent_changes": [],
+    "temporary_overrides": []
+  }
+}

@@ -1,0 +1,42 @@
+# Main configuration for the Novel-to-Radioplay project
+
+# --- Paths ---
+# Input and output directories
+paths:
+  input_dir: "input/"
+  output_dir: "output/"
+  data_dir: "data/"
+  log_dir: "logs/"
+
+# Intermediate data paths within the main data_dir
+data_paths:
+  raw_text: "data/raw_text/"
+  script_json: "data/scripts/"
+  audio_clips: "data/audio/"
+  images: "data/images/"
+  subtitles: "data/subtitles/"
+
+# --- Models & Engines ---
+# Configuration for the different processing engines
+
+voice_engine:
+  # coqui_tts, piper, gtts, etc.
+  provider: "gtts"
+  # Parameters specific to the provider
+  params:
+    # For gTTS, 'lang' is required. Let's default to Spanish.
+    lang: "es"
+
+image_engine:
+  # stable_diffusion, sd_webui_api, etc.
+  provider: "stable_diffusion"
+  params:
+    model: "sd_xl_base_1.0.safetensors"
+    # Default prompt settings
+    default_style: "cinematic, dramatic lighting"
+    width: 1024
+    height: 1024
+
+# --- Project Settings ---
+project:
+  default_language: "es" # 'es' for Spanish, 'en' for English
